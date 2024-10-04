@@ -1,0 +1,44 @@
+@import "variables";
+
+.education {
+  background-color: rgba($dark-brown, 0.25);
+
+  p {
+    margin: 0;
+  }
+
+  &_entry {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /*
+  Text Descriptions
+   */
+  &_text {
+    flex: 2;
+  }
+
+  &_title {
+    margin-bottom: 0;
+  }
+
+  &_details {
+    margin: 1rem 0;
+  }
+
+  /*
+  Highlighted Result Description
+   */
+  &_result {
+    flex: 1;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &_grade {
+    font-size: 6rem;
+  }
+
+}

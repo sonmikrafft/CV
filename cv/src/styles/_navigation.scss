@@ -1,0 +1,20 @@
+@import "variables";
+
+.MuiAppBar-root {
+  background: transparent !important;
+  min-height: 2rem;
+  padding: 1rem 0;
+  box-shadow: none !important;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+
+  .MuiLink-root {
+    color: $off-white;
+  }
+}

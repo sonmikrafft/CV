@@ -1,0 +1,31 @@
+@import "variables";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_back {
+    display: flex;
+    align-items: center;
+    gap: 0.125rem;
+  }
+
+  &_infos {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    align-items: start;
+    font-size: 0.75rem;
+  }
+
+  &_info {
+    max-width: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

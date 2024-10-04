@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Master's Thesis",
+    "time": "08/2023 - 04/2024",
+    "description": "Assessing the relationship between generative factors of ECG signals and latent dimensions in Variational Autoencoders to enhance interpretability",
+    "frameworks": [
+      "Python",
+      "JavaScript",
+      "Pytorch",
+      "MongoDB",
+      "FastAPI",
+      "Svelte",
+      "Tailwind",
+      "DaisyUI"
+    ],
+    "tasks": [
+      "Implement similarity measures and disentanglement metrics for existing VAEs.",
+      "Train different VAEs on ECG data and assess their disentanglement.",
+      "Augment the existing visualization tool by integrating the trained model and the interpretability component."
+    ]
+  ,
+    "image": "ma",
+    "link": "https://github.com/sonmikrafft/sonmikrafft-MA-electrocardiogram-representational-learning"
+  },
+  {
+    "title": "Route Planner in collaboration with Forsailors UG",
+    "time": "10/2022 - 04/2023",
+    "description": "Creating a MVP web app for sailors with visualizations and filtering for routes and points of interests",
+    "frameworks": [
+      "Python",
+      "Javascript",
+      "Mapbox",
+      "React",
+      "NextJS",
+      "Vercel"
+    ],
+    "tasks": [
+      "Work in an international team of 4 developers from China, India, Turkey, and Germany.",
+      "Organize the project using Slack, Jira, and Confluence.",
+      "Navigate a real customer and changing requirements.",
+      "Calculate mock routes by connecting each marina with its two nearest neighbors.",
+      "Import routes and points of interest into Mapbox.",
+      "Create a UI that visualizes the map and allows users to filter routes."
+    ]
+  ,
+    "image": "forsailors",
+    "link": "https://forsailors-route-planner.vercel.app/"
+  },
+  {
+    "title": "Budgetly - a Personal Finance Assistant",
+    "time": "04/2022 - 07/2022",
+    "description": "Creating a business case and implementing a MERN stack web app",
+    "frameworks": [
+      "Javascript",
+      "MongoDB",
+      "Express",
+      "React",
+      "NodeJS",
+      "Nordigen API",
+      "MaterialUI"
+    ],
+    "tasks": [
+      "Work in an international, self-organized team of 3-4 developers.",
+      "Come up with a business case and pitch it to 20 people.",
+      "Define a Mongoose model for transactions and categories.",
+      "Define API endpoints and implement CRUD operations for transactions.",
+      "Design and implement the UI for transactions, categories, a budget alarm, and an About Us page."
+    ]
+  ,
+    "image": "seba",
+    "link": "https://github.com/sonmikrafft-uni-seba"
+  },
+  {
+    "title": "Crowd Modeling and Simulation",
+    "time": "10/2021 - 04/2022",
+    "description": "Completing 6 coding assignments including a final project",
+    "frameworks": [
+      "Java",
+      "Vadere",
+      "Python",
+      "Tensorflow",
+      "Keras"
+    ],
+    "tasks": [
+      "Work in a self-organized team of 3 developers.",
+      "Set up a simulation environment and simulate RiMEA tests in your own environment and in Vadere.",
+      "Implement PCA, diffusion maps, and a VAE with TensorFlow.",
+      "Implement common bifurcations.",
+      "Approximate linear and non-linear vector fields.",
+      "Simulate the bottleneck scenario with ANN and Random Forest."
+    ]
+  ,
+    "image": "mlcms",
+    "link": "https://github.com/sonmikrafft-uni-MLCMS"
+  },
+  {
+    "title": "iCara in collaboration with Solgenium GmbH",
+    "time": "04/2021 - 07/2021",
+    "description": "Creating a mobile iOS app where health professionals answer randomized questions to optimize hospital workflows with the analysis of the given answers",
+    "frameworks": [
+      "Swift",
+      "Docker",
+      "SQLiteDB",
+      "Apodini",
+      "SwiftUI"
+    ],
+    "tasks": [
+      "Work in an international, interdisciplinary team of 7 developers, 1 project manager, and 5 project leads.",
+      "Coordinate our first SCRUM-organized project using Slack, Jira, and Confluence.",
+      "Navigate a real customer and changing requirements.",
+      "Write, organize, and film a trailer for the application.",
+      "Design and model the application with Figma design files, UML diagrams, sequence diagrams, and use cases.",
+      "Implement the UI for registration, settings, overview, and the randomized questions.",
+      "Connect to the Solgenium backend to request questions, select a random set, and write results into a database."
+    ]
+  ,
+    "image": "icara",
+    "link": "https://ase.in.tum.de/lehrstuhl_1/projects/151-teaching/st21/1214-results-of-the-ipraktikum-ss2021.html"
+  },
+  {
+    "title": "Pic2Learn",
+    "time": "09/2018 - 04/2019",
+    "description": "Create an Android app that teaches young children coding by scanning a handwritten sequence of instructions",
+    "frameworks": [
+      "Java",
+      "Android",
+      "LibGDX",
+      "Tensorflow"
+    ],
+    "tasks": [
+      "Work in a self-organized team of 4 developers.",
+      "Connect the Android camera to the app.",
+      "Forward the resulting images to TensorFlow for image classification.",
+      "Visualize the classification and design the UI for the resulting sequence of instructions, allowing the user to correct their input or fix falsely classified instructions.",
+      "Organize and teach a coding lesson, assisted by our application, for 30 middle school students.",
+      "Analyze the results and write a documentation that serves as the basis for a published paper (mentioned in acknowledgements)."
+    ]
+  ,
+    "image": "pic2learn",
+    "link": "https://ieeexplore.ieee.org/abstract/document/9125087"
+  }
+]

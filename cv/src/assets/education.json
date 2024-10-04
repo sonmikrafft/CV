@@ -1,0 +1,20 @@
+[
+  {
+    "title": "M.Sc. Informatics",
+    "time": "04/2021 - 09/2024",
+    "company": "Technische Universität München",
+    "grade": "1.2",
+    "honors": "Passed with High Distinction",
+    "thesis": "Electrocardiogram and Representational Learning: Assessing Latent Factors and Similartiy Measures",
+    "details": "Focus on Algorithms, Software Engineering, and Machine Learning"
+  },
+  {
+    "title": "B.Sc. Informatics",
+    "time": "10/2016 - 03/2021",
+    "company": "Technische Universität München",
+    "grade": "1.9",
+    "honors": "Passed with Merit",
+    "thesis": "Design Strategies for Automated Dialog-based Dietary Assistance Systems: A Structured Literature Review",
+    "details": "Application Area Mathematics with Focus on Algorithmic Discrete Mathematics and Linear and Convex Optimization"
+  }
+]

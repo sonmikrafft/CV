@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tutoring Position for \"Operations Research\"",
+    "time": "04/2022 - 10/2023",
+    "company": "Technische Universität München",
+    "frameworks": [],
+    "tasks": ["organize and teach tutoring sessions for 50 students"]
+  },
+  {
+    "title": "Working Student",
+    "time": "10/2017 - 05/2018",
+    "company": "doubleSlash Net-Business GmbH",
+    "frameworks": ["Java", "Docker", "Hadoop", "Hive", "Twitter API"],
+    "tasks": ["implement a MVP for a social media price prediction project",
+              "set up Hadoop environment incl. data model and Hive",
+              "create Docker image for the project"]
+  },
+  {
+    "title": "”Freiwilliges Soziales Jahr”",
+    "time": "09/2015 - 09/2016",
+    "company": "Diakonie Pfingstweid e.V.",
+    "frameworks": [],
+    "tasks": ["work as an occupational therapist for people with disabilities",
+              "gain organizational and managerial skills by arranging activities and leading groups of clients"]
+  }
+]

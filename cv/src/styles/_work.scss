@@ -1,0 +1,25 @@
+@import "variables";
+
+.work {
+
+  p {
+    margin: 0;
+  }
+
+  &_time {
+    opacity: 0.5;
+  }
+
+  &_details {
+    padding-bottom: 1rem;
+
+    h3 {
+      text-transform: none;
+      margin: 0;
+    }
+  }
+
+  .MuiTimelineConnector-root {
+    background-color: $light-brown;
+  }
+}

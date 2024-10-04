@@ -1,0 +1,35 @@
+@import "variables";
+
+.introduction {
+  display: flex;
+  padding: 4rem;
+  background-image: url("../assets/avatar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: $off-white;
+  min-height: 36rem;
+
+  h1 {
+    flex: 1;
+    align-self: flex-start;
+    text-align: left;
+  }
+}
+
+.profile {
+  flex: 1;
+  padding: 4rem 0;
+  align-self: flex-end;
+  text-align: right;
+
+  &_title {
+    padding: 1rem 0;
+    text-transform: uppercase;
+  }
+
+  &_name {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
