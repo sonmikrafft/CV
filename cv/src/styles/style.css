@@ -53,6 +53,11 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+@media (max-width: 39.9375em) {
+  h1 {
+    font-size: 2em;
+  }
+}
 
 h2, h3 {
   font-size: 1.25em;
@@ -89,10 +94,34 @@ button:focus-visible {
   padding-right: 4rem;
   padding-left: 4rem;
 }
+@media (max-width: 39.9375em) {
+  .plr {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
 
 .ptb {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.hide-for-desktop {
+  display: none;
+}
+@media (max-width: 39.9375em) {
+  .hide-for-desktop {
+    display: block;
+  }
+}
+
+.hide-for-mobile {
+  display: block;
+}
+@media (max-width: 39.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
 }
 
 .list_bullets {
@@ -103,15 +132,24 @@ button:focus-visible {
   display: list-item;
 }
 
-.hide {
-  display: none;
-}
-
 .MuiAppBar-root {
   background: transparent !important;
   min-height: 2rem;
   padding: 1rem 0;
   box-shadow: none !important;
+}
+
+.menu_links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+.menu_button {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .links {
@@ -135,6 +173,17 @@ button:focus-visible {
   transition: transform 500ms ease-in-out;
   width: 200%;
 }
+@media (min-width: 160em) {
+  .project {
+    width: 100%;
+  }
+}
+@media (max-width: 63.9375em) {
+  .project {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .project h3 {
   text-transform: none;
   transition: color 300ms ease-in-out;
@@ -148,10 +197,25 @@ button:focus-visible {
   object-fit: cover;
   object-position: top;
 }
+@media (min-width: 160em) {
+  .project .MuiCardMedia-root {
+    flex: 0 0 33%;
+  }
+}
 .project .MuiCardContent-root {
   flex: 0 0 25%;
   padding: 2rem;
   text-align: left;
+}
+@media (min-width: 160em) {
+  .project .MuiCardContent-root {
+    flex: 0 0 33%;
+  }
+}
+@media (max-width: 63.9375em) {
+  .project .MuiCardContent-root {
+    padding: 1rem 2rem;
+  }
 }
 .project_content {
   display: flex;
@@ -160,6 +224,16 @@ button:focus-visible {
 }
 .project_content .MuiButton-root {
   width: 50%;
+}
+@media (min-width: 160em) {
+  .project_content .MuiButton-root {
+    display: none;
+  }
+}
+@media (max-width: 39.9375em) {
+  .project_content .MuiButton-root {
+    width: 100%;
+  }
 }
 .project_time {
   opacity: 0.5;
@@ -197,6 +271,20 @@ button:focus-visible {
 .show-more {
   transform: translateX(-25%);
 }
+@media (max-width: 63.9375em) {
+  .show-more {
+    transform: translateX(0);
+  }
+}
+
+.hide {
+  display: block;
+}
+@media (max-width: 63.9375em) {
+  .hide {
+    display: none;
+  }
+}
 
 .work p {
   margin: 0;
@@ -230,6 +318,12 @@ button:focus-visible {
 .education_entry {
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 63.9375em) {
+  .education_entry {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
 }
 .education_text {
   flex: 2;

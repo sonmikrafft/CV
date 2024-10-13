@@ -54,7 +54,7 @@ function Project(props) {
                     <Button onClick={handleShowMore}
                             variant="contained">{!showMore ? "Show More" : "Show Less"}</Button>
                 </CardContent>
-                <CardContent className={"project_more"}>
+                <CardContent className={`project_more ${showMore ? '' : 'hide'}`}>
                     {/* List of Tasks */}
                     <p><b>Challenges: </b></p>
                     <List className={"project_tasks list_bullets"}>

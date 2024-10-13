@@ -1,9 +1,15 @@
 @import "variables";
+@import "mixins";
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @include breakpoint-down(medium) {
+    flex-direction: column;
+    gap: 2rem;
+  }
 
   &_back {
     display: flex;
@@ -17,6 +23,11 @@
     gap: 0.75rem;
     align-items: start;
     font-size: 0.75rem;
+
+    @include breakpoint-down(small) {
+      flex-direction: column;
+      gap: 2rem;
+    }
   }
 
   &_info {

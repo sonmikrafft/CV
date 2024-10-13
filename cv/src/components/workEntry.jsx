@@ -13,7 +13,7 @@ function WorkEntry(props) {
 
     return (
         <TimelineItem>
-            <TimelineOppositeContent>
+            <TimelineOppositeContent className={"hide-for-mobile"}>
                 <p className={"work_time"}>{entry.time}</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -22,6 +22,7 @@ function WorkEntry(props) {
             </TimelineSeparator>
             <TimelineContent>
                 <div className="work_details">
+                    <p className={"work_time hide-for-desktop"}>{entry.time}</p>
                     <h3>{entry.title}</h3>
                     <b>at {entry.company}</b>
                     { entry.tasks.length > 0 &&

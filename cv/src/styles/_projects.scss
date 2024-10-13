@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 .projects {
   background-color: rgba($dark-brown, 0.25);
@@ -9,6 +10,15 @@
   overflow: hidden;
   transition: transform 500ms ease-in-out;
   width: 200%;
+
+  @include breakpoint-up(xlarge) {
+    width: 100%;
+  }
+
+  @include breakpoint-down(medium) {
+    flex-direction: column;
+    width: 100%
+  }
 
   h3 {
     text-transform: none;
@@ -24,12 +34,24 @@
     overflow: hidden;
     object-fit: cover;
     object-position: top;
+
+    @include breakpoint-up(xlarge) {
+      flex: 0 0 33%;
+    }
   }
 
   .MuiCardContent-root {
     flex: 0 0 25%;
     padding: 2rem;
     text-align: left;
+
+    @include breakpoint-up(xlarge) {
+      flex: 0 0 33%;
+    }
+
+    @include breakpoint-down(medium) {
+      padding: 1rem 2rem;
+    }
   }
 
   &_content {
@@ -39,6 +61,14 @@
 
     .MuiButton-root {
       width: 50%;
+
+      @include breakpoint-up(xlarge) {
+        display: none;
+      }
+
+      @include breakpoint-down(small) {
+        width: 100%;
+      }
     }
   }
 
@@ -82,6 +112,18 @@
 
 .show-more {
   transform: translateX(-25%);
+
+  @include breakpoint-down(medium) {
+    transform: translateX(0);
+  }
+}
+
+.hide {
+  display: block;
+
+  @include breakpoint-down(medium) {
+    display: none;
+  }
 }
 
 
