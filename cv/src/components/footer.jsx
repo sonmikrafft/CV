@@ -4,9 +4,12 @@ import {AlternateEmail, Home, North, PhoneEnabled} from "@mui/icons-material";
 
 function Footer() {
 
+    /*
+    Scroll to the top when Back to Top button is clicked
+     */
     const handleSmoothScroll = (e) => {
         e.preventDefault();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({top: 0, behavior: 'smooth'});
     }
 
     return (

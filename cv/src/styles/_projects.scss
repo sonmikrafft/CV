@@ -1,10 +1,16 @@
 @import "variables";
 @import "mixins";
 
+/*
+ * Styles for ProjectSection
+ */
 .projects {
   background-color: rgba($dark-brown, 0.25);
 }
 
+/*
+ * Styles for Project
+ */
 .project {
   display: flex;
   overflow: hidden;
@@ -29,6 +35,9 @@
     }
   }
 
+  /*
+  Image
+   */
   .MuiCardMedia-root {
     flex: 0 0 25%;
     overflow: hidden;
@@ -40,6 +49,9 @@
     }
   }
 
+  /*
+  Content
+   */
   .MuiCardContent-root {
     flex: 0 0 25%;
     padding: 2rem;
@@ -76,6 +88,9 @@
     opacity: 0.5;
   }
 
+  /*
+  List of Frameworks
+   */
   &_frameworks {
     padding: 1rem 0;
     display: flex;
@@ -85,6 +100,9 @@
     width: 100%;
   }
 
+  /*
+  Framework with Icon and Title
+   */
   &_framework {
     display: flex;
     flex-direction: column;
@@ -110,6 +128,9 @@
   }
 }
 
+/*
+Left Swipe for Show More
+ */
 .show-more {
   transform: translateX(-25%);
 
@@ -118,6 +139,9 @@
   }
 }
 
+/*
+Hide for Mobile
+ */
 .hide {
   display: block;
 

@@ -13,19 +13,26 @@ function WorkEntry(props) {
 
     return (
         <TimelineItem>
+
+            {/* For Desktop: Time on the left side of the Timeline */}
             <TimelineOppositeContent className={"hide-for-mobile"}>
                 <p className={"work_time"}>{entry.time}</p>
             </TimelineOppositeContent>
+
             <TimelineSeparator>
                 <TimelineDot variant="outlined" color={"highlight"}/>
                 {!isLast && <TimelineConnector/>}
             </TimelineSeparator>
+
+            {/* Work Content */}
             <TimelineContent>
                 <div className="work_details">
+                    {/* For Mobile: Time on the right side of the Timeline */}
                     <p className={"work_time hide-for-desktop"}>{entry.time}</p>
+                    {/* Title, Company, and List of Tasks */}
                     <h3>{entry.title}</h3>
                     <b>at {entry.company}</b>
-                    { entry.tasks.length > 0 &&
+                    {entry.tasks.length > 0 &&
                         <List className={"list_bullets"}>
                             {
                                 entry.tasks.map((task, i) => (

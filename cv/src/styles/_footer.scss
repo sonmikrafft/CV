@@ -1,6 +1,9 @@
 @import "variables";
 @import "mixins";
 
+/*
+ * Styles for Footer
+ */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -11,12 +14,18 @@
     gap: 2rem;
   }
 
+  /*
+  Back to Top Button
+   */
   &_back {
     display: flex;
     align-items: center;
     gap: 0.125rem;
   }
 
+  /*
+  Info List with Icons and Links
+   */
   &_infos {
     display: flex;
     flex-direction: row;

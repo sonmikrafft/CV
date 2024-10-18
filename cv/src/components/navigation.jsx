@@ -1,12 +1,16 @@
 import '../styles/_navigation.scss'
 import '../styles/_index.scss'
-import {AppBar, Backdrop, Box, Drawer, IconButton, Link, Toolbar} from "@mui/material";
+import {AppBar, Backdrop, Drawer, IconButton, Link} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import {useState} from "react";
 
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
+
+    /*
+    Handle smooth scroll to the clicked section
+     */
     const handleSmoothScroll = (e, targetID) => {
         e.preventDefault();
         const target = document.getElementById(targetID);
@@ -15,10 +19,16 @@ function Navigation() {
         }
     }
 
+    /*
+    Handle the state of isOpen whenever the Mobile Menu should be opened or closed
+     */
     const handleOpen = () => {
         setIsOpen(!isOpen);
     }
 
+    /*
+    Content of the Mobile Menu Drawer
+     */
     const MobileMenu = (
         <div className={"menu_links"}>
             <Link href={'#projects'} onClick={(e) => {
@@ -46,7 +56,7 @@ function Navigation() {
         <AppBar position={"absolute"}>
             {/* Grey Overlay when menu is open */}
             <Backdrop
-                sx={(theme) => ({ color: '#fff', zIndex: theme.zIndex.drawer + 1 })}
+                sx={(theme) => ({color: '#fff', zIndex: theme.zIndex.drawer + 1})}
                 open={isOpen}
                 onClick={handleOpen}
             ></Backdrop>

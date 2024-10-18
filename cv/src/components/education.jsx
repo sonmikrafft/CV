@@ -3,6 +3,9 @@ import SectionTitle from "./sectionTitle.jsx";
 import education from '../assets/education.json';
 import EducationEntry from "./educationEntry.jsx";
 
+/*
+List of Education Steps stored in corresponding JSON
+ */
 function EducationSection() {
 
     return (
@@ -10,7 +13,7 @@ function EducationSection() {
             <SectionTitle title="Education"/>
             {
                 education.map((entry, i) => (
-                   <EducationEntry key={i} entry={entry} />
+                    <EducationEntry key={i} entry={entry}/>
                 ))
             }
         </section>

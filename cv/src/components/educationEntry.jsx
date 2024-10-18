@@ -5,6 +5,7 @@ function EducationEntry(props) {
 
     return (
         <div className="education_entry">
+            {/* Title, University, Details, and Thesis Title */}
             <div className="education_text">
                 <h3 className={"education_title"}>{entry.title}</h3>
                 <b>{entry.company}</b>
@@ -14,6 +15,7 @@ function EducationEntry(props) {
                     <p><b>Thesis:</b> &quot;{entry.thesis}&quot;</p>
                 </div>
             </div>
+            {/* Grade and Honor Title */}
             <div className="education_result">
                 <p className="education_grade">{entry.grade}</p>
                 <p className="education_honors">{entry.honors}</p>

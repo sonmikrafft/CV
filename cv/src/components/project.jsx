@@ -15,12 +15,16 @@ function Project(props) {
     const project = props.project;
     const imagePath = "/images/" + project.image + ".jpg";
 
+    /*
+    Return the Path of a given Icon
+     */
     const getIconPath = (icon) => {
-        const path = "/icons/" + icon.replace(" ", "").toLowerCase() + ".svg"
-
-        return path;
+        return "/icons/" + icon.replace(" ", "").toLowerCase() + ".svg";
     }
 
+    /*
+    Handle Click on Show More by toggling its state
+     */
     const handleShowMore = () => {
         setShowMore((prevState) => !prevState);
     }
@@ -28,10 +32,12 @@ function Project(props) {
     return (
         <Card>
             <Box className={`project ${showMore ? 'show-more' : ''}`}>
+                {/* 1st Part: Image */}
                 <CardMedia
                     component="img"
                     image={imagePath}
                     alt={project.title + " Image"}/>
+                {/* 2nd Part: Time, Title, Description, Frameworks, and Show More Button */}
                 <CardContent className={"project_content"}>
                     <Box>
                         <p className="project_time">{project.time}</p>
@@ -54,6 +60,7 @@ function Project(props) {
                     <Button onClick={handleShowMore}
                             variant="contained">{!showMore ? "Show More" : "Show Less"}</Button>
                 </CardContent>
+                {/* 3rd Part: Tasks */}
                 <CardContent className={`project_more ${showMore ? '' : 'hide'}`}>
                     {/* List of Tasks */}
                     <p><b>Challenges: </b></p>

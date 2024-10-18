@@ -1,4 +1,3 @@
-import './styles/_app.scss'
 import theme from './theme';
 import Navigation from "./components/navigation.jsx";
 import {CssBaseline, ThemeProvider} from "@mui/material";

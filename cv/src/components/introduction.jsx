@@ -3,7 +3,7 @@ import '../styles/_introduction.scss'
 function Introduction() {
     return (
         <section className="introduction plr">
-            <h1>Let's Work Together On Your Next Project</h1>
+            <h1>Let&apos;s Work Together On Your Next Project</h1>
             <div className="profile">
                 <div className="profile_title">Meet your next Software developer</div>
                 <div className="profile_details">

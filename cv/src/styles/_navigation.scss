@@ -1,5 +1,8 @@
 @import "variables";
 
+/*
+ * Styles for Navigation
+ */
 .MuiAppBar-root {
   background: transparent !important;
   min-height: 2rem;
@@ -7,6 +10,9 @@
   box-shadow: none !important;
 }
 
+/*
+Mobile Menu
+ */
 .menu {
   &_links {
     display: flex;
@@ -23,6 +29,9 @@
   }
 }
 
+/*
+Desktop Menu
+ */
 .links {
   display: flex;
   justify-content: flex-end;

@@ -3,6 +3,9 @@ import projects from '../assets/projects.json';
 import SectionTitle from "./sectionTitle.jsx";
 import Project from "./project.jsx";
 
+/*
+List of Projects stored in corresponding JSONstored in corresponding JSON
+ */
 function ProjectSection() {
 
     return (

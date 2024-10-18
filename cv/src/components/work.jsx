@@ -5,6 +5,9 @@ import '../styles/_work.scss';
 import SectionTitle from "./sectionTitle.jsx";
 import WorkEntry from "./workEntry.jsx";
 
+/*
+List of Work Experiences stored in corresponding JSON
+ */
 function WorkSection() {
 
     return (
