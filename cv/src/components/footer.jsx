@@ -19,7 +19,7 @@ function Footer() {
                 {/*Adress*/}
                 <Box className={"footer_info"}>
                     <Home/>
-                    <Link href={"https://maps.app.goo.gl/EFd3Y1wwY9hoVPGc8"}>Lützelsteiner Straße 27, Munich</Link>
+                    <Link href={"https://maps.app.goo.gl/CmghJzGgDYGYdi4x6"}>Lothringer Straße 26, Wiesbaden</Link>
                 </Box>
                 {/*Phone Number */}
                 <Box className={"footer_info"}>

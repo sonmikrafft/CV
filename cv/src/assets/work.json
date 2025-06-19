@@ -1,5 +1,14 @@
 [
   {
+    "title": "Junior Software Developer - Fullstack",
+    "time": "02/2025 - present",
+    "company": "ekkodale GmbH",
+    "frameworks": ["React", "Vite", "TailwindCSS", "Material UI", ",.NET", "FastAPI", "Nuke"],
+    "tasks": [
+      "building software solutions for the architecture and construction industry using React, Vite, TailwindCSS, Material UI, .NET, and FastAPI.",
+      "implement DevOps pipelines and infrastructure using Nuke, Azure DevOps, Portainer, and Docker to streamline builds, deployments, and container management"]
+  },
+  {
     "title": "Tutoring Position for \"Operations Research\"",
     "time": "04/2022 - 10/2023",
     "company": "Technische Universität München",

@@ -8,7 +8,7 @@ function Introduction() {
                 <div className="profile_title">Meet your next Software developer</div>
                 <div className="profile_details">
                     <div className="profile_name">Sonja Krafft</div>
-                    <div className="profile_location">Munich, Germany</div>
+                    <div className="profile_location">Wiesbaden, Germany</div>
                   </div>
             </div>
         </section>
