@@ -10,7 +10,7 @@
     },
     {
       "title": "Cloud & Devops",
-      "skills": ["Docker", "CI/CD","Azure", "Azure DevOps", "Portainer","Bicep"]
+      "skills": ["Docker", "CI/CD","Azure", "Azure DevOps", "Portainer", "Vercel","Bicep"]
     },
     {
       "title": "Data & Integration",
