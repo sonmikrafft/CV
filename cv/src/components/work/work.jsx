@@ -12,7 +12,7 @@ function WorkSection() {
 
     return (
         <section id="work" className="work plr ptb">
-            <SectionTitle title="Work"/>
+            <SectionTitle title="Work Experience"/>
             <Timeline>
                 {
                     work.map((entry, i) => (

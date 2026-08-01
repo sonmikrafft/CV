@@ -16,9 +16,9 @@ function App() {
             <Navigation/>
             <Introduction/>
             <main>
-                <SkillsSection/>
-                <ProjectSection/>
                 <WorkSection/>
+                <ProjectSection/>
+                <SkillsSection/>
                 <EducationSection/>
             </main>
             <Footer color="secondary" />

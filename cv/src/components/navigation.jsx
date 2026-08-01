@@ -29,13 +29,12 @@ function Navigation() {
     /*
     Content of the Mobile Menu Drawer
      */
-    const MobileMenu = (
-        <div className={"menu_links"}>
-            <Link href={'#skills'} onClick={(e) => {
-                handleSmoothScroll(e, "skills");
+    const MobileMenu = (<div className={"menu_links"}>
+            <Link href={'#work'} onClick={(e) => {
+                handleSmoothScroll(e, "work");
                 handleOpen();
             }}>
-                Skills
+                Work Experience
             </Link>
             <Link href={'#projects'} onClick={(e) => {
                 handleSmoothScroll(e, "projects");
@@ -43,11 +42,11 @@ function Navigation() {
             }}>
                 Projects
             </Link>
-            <Link href={'#work'} onClick={(e) => {
-                handleSmoothScroll(e, "work");
+            <Link href={'#skills'} onClick={(e) => {
+                handleSmoothScroll(e, "skills");
                 handleOpen();
             }}>
-                Work Experience
+                Skills
             </Link>
             <Link href={'#education'} onClick={(e) => {
                 handleSmoothScroll(e, "education");
@@ -55,11 +54,9 @@ function Navigation() {
             }}>
                 Education
             </Link>
-        </div>
-    );
+        </div>);
 
-    return (
-        <AppBar position={"absolute"}>
+    return (<AppBar position={"absolute"}>
             {/* Grey Overlay when menu is open */}
             <Backdrop
                 sx={(theme) => ({color: '#fff', zIndex: theme.zIndex.drawer + 1})}
@@ -74,14 +71,14 @@ function Navigation() {
             {/* Toolbar for Desktop */}
             <div className="toolbar plr hide-for-mobile">
                 <div className="links">
-                    <Link href={'#skills'} onClick={(e) => handleSmoothScroll(e, "skills")}>
-                        Skills
+                    <Link href={'#work'} onClick={(e) => handleSmoothScroll(e, "work")}>
+                        Work Experience
                     </Link>
                     <Link href={'#projects'} onClick={(e) => handleSmoothScroll(e, "projects")}>
                         Projects
                     </Link>
-                    <Link href={'#work'} onClick={(e) => handleSmoothScroll(e, "work")}>
-                        Work Experience
+                    <Link href={'#skills'} onClick={(e) => handleSmoothScroll(e, "skills")}>
+                        Skills
                     </Link>
                     <Link href={'#education'} onClick={(e) => handleSmoothScroll(e, "education")}>
                         Education
@@ -103,8 +100,7 @@ function Navigation() {
                     </IconButton>
                 </div>
             </div>
-        </AppBar>
-    )
+        </AppBar>)
 }
 
 export default Navigation;
