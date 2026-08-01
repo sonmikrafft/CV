@@ -12,7 +12,8 @@ function EducationEntry(props) {
                 <p>{entry.time}</p>
                 <div className="education_details">
                     <p>{entry.details}</p>
-                    <p><b>Thesis:</b> &quot;{entry.thesis}&quot;</p>
+                    {entry.thesis &&
+                        <p><b>Thesis:</b> &quot;{entry.thesis}&quot;</p>}
                 </div>
             </div>
             {/* Grade and Honor Title */}

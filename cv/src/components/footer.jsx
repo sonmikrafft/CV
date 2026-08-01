@@ -1,6 +1,6 @@
 import '../styles/_footer.scss'
 import {Box, Link, SvgIcon} from "@mui/material";
-import {AlternateEmail, Home, North, PhoneEnabled} from "@mui/icons-material";
+import {AlternateEmail, Home, North} from "@mui/icons-material";
 
 function Footer() {
 
@@ -19,12 +19,7 @@ function Footer() {
                 {/*Adress*/}
                 <Box className={"footer_info"}>
                     <Home/>
-                    <Link href={"https://maps.app.goo.gl/CmghJzGgDYGYdi4x6"}>Lothringer Straße 26, Wiesbaden</Link>
-                </Box>
-                {/*Phone Number */}
-                <Box className={"footer_info"}>
-                    <PhoneEnabled/>
-                    <Link>+49 1515 9444157</Link>
+                    <Link href={"https://maps.app.goo.gl/CmghJzGgDYGYdi4x6"}>Wiesbaden</Link>
                 </Box>
                 {/*Email*/}
                 <Box className={"footer_info"}>
