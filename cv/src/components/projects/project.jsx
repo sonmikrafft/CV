@@ -9,18 +9,12 @@ import {
     ListItem,
 } from "@mui/material";
 import {useState} from "react";
+import Skill from "../skill.jsx";
 
 function Project(props) {
     const [showMore, setShowMore] = useState(false);
     const project = props.project;
     const imagePath = "/images/" + project.image + ".jpg";
-
-    /*
-    Return the Path of a given Icon
-     */
-    const getIconPath = (icon) => {
-        return "/icons/" + icon.replace(" ", "").toLowerCase() + ".svg";
-    }
 
     /*
     Handle Click on Show More by toggling its state
@@ -47,12 +41,7 @@ function Project(props) {
                         <Box className={"project_frameworks"}>
                             {
                                 project.frameworks.map((framework, i) => (
-                                    <Box key={i} className={"project_framework"}>
-                                        <img src={getIconPath(framework)}
-                                             alt={framework + " Icon"}
-                                             onError={(e) => e.target.src = '/icons/default.svg'}/>
-                                        <span>{framework}</span>
-                                    </Box>
+                                    <Skill key={i} skill={framework}/>
                                 ))
                             }
                         </Box>

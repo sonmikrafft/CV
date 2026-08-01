@@ -1,4 +1,4 @@
-import '../styles/_education.scss'
+import '../../styles/_education.scss'
 
 function EducationEntry(props) {
     const entry = props.entry

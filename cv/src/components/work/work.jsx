@@ -1,8 +1,8 @@
 import Timeline from '@mui/lab/Timeline';
-import work from '../assets/work.json';
+import work from '../../assets/work.json';
 
-import '../styles/_work.scss';
-import SectionTitle from "./sectionTitle.jsx";
+import '../../styles/_work.scss';
+import SectionTitle from "../sectionTitle.jsx";
 import WorkEntry from "./workEntry.jsx";
 
 /*

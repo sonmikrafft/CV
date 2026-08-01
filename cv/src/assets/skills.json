@@ -1,0 +1,30 @@
+{
+  "technical": [
+    {
+      "title": "Frontend",
+      "skills": ["React", "TypeScript", "JavaScript","Tailwind", "Material UI", "Svelte", "DaisyUI"]
+    },
+    {
+      "title": "Backend",
+      "skills": [".NET", "C#" ,"FastAPI","Python"]
+    },
+    {
+      "title": "Cloud & Devops",
+      "skills": ["Docker", "CI/CD","Azure", "Azure DevOps", "Portainer","Bicep"]
+    },
+    {
+      "title": "Data & Integration",
+      "skills": ["PostgreSQL", "neo4j","MongoDB", "SQLiteDB", "Apache Airflow"]
+    },
+    {
+      "title": "AI & Intelligent Systems",
+      "skills": ["Tensorflow", "Keras", "Pytorch", "MCP", "PydanticAI", "crewAI", "RAG"]
+    }
+  ],
+  "management": [
+    {
+      "title": "Project & Technical Leadership",
+      "skills": ["SCRUM", "Requirements Engineering",  "Stakeholder Communication","User-centric Design","Azure DevOps","Confluence","Jira","MS Teams","Slack"]
+    }
+  ]
+}

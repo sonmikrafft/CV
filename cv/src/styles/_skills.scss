@@ -1,0 +1,42 @@
+@import "variables";
+@import "mixins";
+
+/*
+ * Styles for SkillSection and SkillCategory
+ */
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.skills-category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+
+  h3 {
+    margin: 0.5rem 0;
+  }
+}
+
+.skills-category-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .MuiChip-root {
+    padding: 0.25rem;
+  }
+}
+
+.MuiPaper-root {
+  background-color: $off-white;
+  padding: 0.5rem;
+  box-shadow: 0.125rem 0.125rem 0.25rem rgba($dark-brown, 0.5);
+
+  &:hover {
+    box-shadow: 0.5rem 0.5rem 1rem rgba($dark-brown, 0.5);
+  }
+}

@@ -1,6 +1,6 @@
-import '../styles/_education.scss'
-import SectionTitle from "./sectionTitle.jsx";
-import education from '../assets/education.json';
+import '../../styles/_education.scss'
+import SectionTitle from "../sectionTitle.jsx";
+import education from '../../assets/education.json';
 import EducationEntry from "./educationEntry.jsx";
 
 /*

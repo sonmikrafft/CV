@@ -31,6 +31,12 @@ function Navigation() {
      */
     const MobileMenu = (
         <div className={"menu_links"}>
+            <Link href={'#skills'} onClick={(e) => {
+                handleSmoothScroll(e, "skills");
+                handleOpen();
+            }}>
+                Skills
+            </Link>
             <Link href={'#projects'} onClick={(e) => {
                 handleSmoothScroll(e, "projects");
                 handleOpen();
@@ -68,6 +74,9 @@ function Navigation() {
             {/* Toolbar for Desktop */}
             <div className="toolbar plr hide-for-mobile">
                 <div className="links">
+                    <Link href={'#skills'} onClick={(e) => handleSmoothScroll(e, "skills")}>
+                        Skills
+                    </Link>
                     <Link href={'#projects'} onClick={(e) => handleSmoothScroll(e, "projects")}>
                         Projects
                     </Link>

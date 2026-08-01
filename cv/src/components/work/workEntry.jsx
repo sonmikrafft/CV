@@ -5,7 +5,7 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineItem from "@mui/lab/TimelineItem";
 import {List, ListItem} from "@mui/material";
-import '../styles/_work.scss'
+import '../../styles/_work.scss'
 
 function WorkEntry(props) {
     const entry = props.entry;

@@ -1,6 +1,6 @@
-import '../styles/_projects.scss'
-import projects from '../assets/projects.json';
-import SectionTitle from "./sectionTitle.jsx";
+import '../../styles/_projects.scss'
+import projects from '../../assets/projects.json';
+import SectionTitle from "../sectionTitle.jsx";
 import Project from "./project.jsx";
 
 /*
